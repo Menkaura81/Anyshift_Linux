@@ -6,4 +6,4 @@ A port of Anyshift for Linux
 - You must run it sudo because of keyboard library
 - Memory mode not tested, Arduino display not tested
 
-My simracing pedals have no Linux driver, so i will not update the repository until i reverse engeneer the driver for linux (will taka looooong time)
+My simracing pedals have no Linux driver, so i will not update the repository until i reverse engeneer the driver for linux (will take a looooong time)
