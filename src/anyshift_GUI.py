@@ -352,11 +352,11 @@ def write_ini():
     read_options_from_windows()
     
     # Store char, not hex code
-    upshift = charConvert(options['up_key'])
-    downshift = charConvert(options['down_key'])
-    rev_key = charConvert(options['rev_key'])  
-    
-    iniWriter(options, upshift, downshift, rev_key)
+    upshift = options['up_key']
+    downshift = options['down_key']
+    rev_key = options['rev_key']
+    file = 'Anyshift.ini'
+    iniWriter(options, upshift, downshift, rev_key, file)
 
 
 # Update windows whem a joystick button is configured
